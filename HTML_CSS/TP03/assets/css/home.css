@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+  }
+  .home_container {
+    position: relative;
+    height: 100%;
+  }
+  .sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+  }
+  .sidebar img {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+  }
+  .sidebar h4 {
+    color: #d1cfcf;
+  }
+  .container {
+    background-image: url("../images/home_page_bg_2.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat b;
+    height: 100vh;
+    margin-left: 22%;
+    color: #fff;
+    position: relative;
+  }
+  .container_mask {
+    height: 100vh;
+    /* opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.619);
+  }
+  .container .container_text {
+    width: 100%;
+    position: absolute;
+    font-family: Oswald, Helvetica, sans-serif;
+    right: 0;
+  }
+  .container .user_name {
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 80px;
+  }
+  .container .user_role {
+    color: rgba(179, 167, 167, 0.85);
+  }
+  .container .user_age{
+    text-decoration: underline solid rgb(247, 203, 7);
+    padding: 30px;
+    margin-top: 10px;
+    border-right-width: 200px;
+    padding-right: 300px;
+  }
+  .container .user_address{
+    text-decoration: underline solid rgb(247, 203, 7);
+    padding: 30px;
+    padding-right: 110px;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .container .user_phone{
+    text-decoration: underline solid rgb(247, 203, 7);
+    padding: 30px;
+    right: 20px;
+    border-left-width: 200px;
+    padding-right: 235px;
+  }
+  .container .user_position{
+    text-decoration: underline solid rgb(247, 203, 7);
+    padding: 30px;
+    right: 30px;
+    border-left-width: 200px;
+    padding-right: 300px;
+  }
+  #nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  }
+  #nav li {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -2px;
+  }
+  #nav li.active {
+    background-color: #f5f3f3;
+  }
+  li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 8px;
+    height: 100%;
+  }
+  #nav a {
+    color: black;
+    text-decoration: none;
+  }
