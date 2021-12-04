@@ -23,7 +23,7 @@ body {
   .container {
     background-image: url("../images/home_page_bg_2.jpeg");
     background-size: 100%;
-    background-repeat: no-repeat b;
+    background-repeat: no-repeat ;
     height: 100vh;
     margin-left: 22%;
     color: #fff;
@@ -37,8 +37,9 @@ body {
   .container .container_text {
     width: 100%;
     position: absolute;
-    font-family: Oswald, Helvetica, sans-serif;
-    right: 0;
+    font-family: 'Oswald', sans-serif;
+    
+    right: 0;s
   }
   .container .user_name {
     font-size: 60px;
