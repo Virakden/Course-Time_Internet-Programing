@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Game</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+</head>
+<body>
+    <div class="parent-container">
+        <canvas id="canvas"></canvas>
+        <div id="starting-container">
+          <h3>Player Name</h3>
+          <input type="text" id="player_name" />
+          <button onclick="startGame()">Start Game</button>
+        </div>
+
+      </div>
+      <div id="container">
+        <div id="dino">
+            <img src="./assets/images/dino.png" alt="dino">
+        </div>
+        <div id="block">
+            <img src="./assets/images/block.png" alt="blocks">
+        </div>
+        <div id="road">
+            <img src="./assets/images/road.png" alt="road">
+        </div>
+        <div id="cloud">
+            <img src="./assets/images/cloud.jpg" alt="cloud">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver">Game Over</div>
+    </div>
+    <script src="./assets/Javascript/classes/interface.js"></script>
+</body>
+</html>
